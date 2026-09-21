@@ -76,5 +76,17 @@ export const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/MohammadOmmar/Clock",
     type: "coding"
+  },
+  {
+    id: "campus-lost-found",
+    number: "07",
+    name: "Campus Lost & Found",
+    category: "Full-Stack Web Application",
+    year: "2025",
+    description: "A campus-focused platform for reporting, discovering, matching, and recovering lost belongings. It combines structured item records with deterministic multi-attribute matching and a controlled ownership-verification workflow.",
+    technologies: ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Authentication"],
+    github: "https://github.com/MohammadOmmar/campus-lost-found",
+    live: "https://campus-lost-found-ommanz.vercel.app/",
+    type: "coding"
   }
 ]

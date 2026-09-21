@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* Color System - matching reference's dark theme with lime accent */
+  /* Color System - matching reference dark theme with lime accent */
   --color-background: #0a0a0a;
   --color-foreground: #f5f5f5;
   --color-muted: #6b6b6b;
@@ -111,6 +111,11 @@ body {
 }
 
 /* Utility classes */
+.px-page-padding {
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+}
+
 .max-width {
   max-width: var(--content-width);
   margin-left: auto;
